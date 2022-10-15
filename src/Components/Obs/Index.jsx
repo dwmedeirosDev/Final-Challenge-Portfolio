@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Modal from 'react-modal'
 import * as S from './Style'
 import Onu from '../../Assets/Obs/onu-logo.png'
 import Health from '../../Assets/Obs/health.png'
@@ -30,7 +31,11 @@ export default function OBS(){
                 {pagehealth? <HealthComponent /> : null}
 
                 <S.Img onClick ={()=>(setPageeducation(!pageeducation))} src={Education} alt='Educação'/>
-                {pageeducation? <EducationComponent /> : null}
+                {pageeducation? (
+                <Modal onClose={()=> (setPageeducation(false))}>
+                    <EducationComponent />
+                </Modal>
+                ) : null}
 
                 <S.Img onClick ={()=>(setPageequality(!pageequality))} src={Equality} alt='Igualdade'/>
                 {pageequality? <EqualityComponent /> : null}
