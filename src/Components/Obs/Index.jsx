@@ -11,6 +11,7 @@ import EducationComponent from '../Obs/Education/Index'
 import EqualityComponent from '../Obs/Equality/Index'
 import GrowthComponent from '../Obs/Growth/Index'
 import JusticeComponent from '../Obs/Justice/Index'
+import Header from '../../Services/Header/Index'
 
 export default function OBS(){
     
@@ -21,7 +22,8 @@ export default function OBS(){
     const [pagejustice, setPagejustice] = useState(false)
 
     return(
-        <S.ContainerObs>   
+        <S.ContainerObs>  
+            <Header /> 
             <S.Logo src={Onu} alt='Onu'/>
             <S.H1>Os Objetivos de Desenvolvimento Sustentável no Complexo da Maré</S.H1>
             <S.P>Os Objetivos de Desenvolvimento Sustentável são um apelo à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, no Complexo da Maré, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Complexo da Maré - RJ.</S.P>

@@ -56,6 +56,7 @@ export const SLink = styled(Link)`
     color: white;
     position: relative;
     text-decoration: none;
+    font-weight: lighter;
 
     &:before {
         content: '';

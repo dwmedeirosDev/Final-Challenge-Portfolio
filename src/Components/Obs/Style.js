@@ -1,12 +1,13 @@
 import styled from 'styled-components'
+import Background from '../../Assets/Background/background.jpg'
 
 export const ContainerObs = styled.section` 
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
+    background-image: url(${Background});
 `
 
 export const Logo = styled.img`
@@ -18,6 +19,7 @@ export const H1 = styled.h1`
     text-align: center;
     font-size: 2rem;
     width: 100%;
+    color: white;
 `
 
 export const P = styled.p`
@@ -26,6 +28,7 @@ export const P = styled.p`
     padding: 2vh;
     text-align: center;
     font-weight: lighter;
+    color: white;
 `
 
 export const Mural = styled.div`
