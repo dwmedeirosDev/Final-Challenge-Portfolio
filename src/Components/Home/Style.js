@@ -13,7 +13,7 @@ export const All = styled.div`
 
     @media only screen and (min-width: 375px) and (max-width: 815px){
         flex-direction: column;
-        height: 95vh;
+        height: 115vh;
     }
 `
 
