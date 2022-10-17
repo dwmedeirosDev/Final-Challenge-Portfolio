@@ -6,7 +6,7 @@ export default function Header(){
     return(
         <S.ContainerHeader>
             <S.Title>
-                <S.H1>Portfólio Web</S.H1>
+                <S.H1>David Medeiros</S.H1>
             </S.Title>
             <S.Menu>
                 <S.SLink to='/'>Home</S.SLink>

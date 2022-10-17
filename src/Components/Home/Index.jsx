@@ -17,9 +17,9 @@ export default function Home(){
                         <S.H1>Bem vindo ao meu Portfólio</S.H1>
                         <S.H3>Minhas Redes Sociais:</S.H3>
                         <S.SMBox>
-                            <a href='https://www.linkedin.com/in/dwmedeiros/' target='_blank'><S.SM src={Linkedin} alt='LinkedIn'/></a>
-                            <a href='https://wa.me/5521982916500' target='_blank'><S.SM src={Whatsapp} alt='Whatsapp'/></a>
-                            <a href='https://github.com/dwmedeirosDev' target='_blank'><S.SM src={GitHub} alt='GitHub'/></a>  
+                            <a href='https://www.linkedin.com/in/dwmedeiros/' target='_blank' rel="noreferrer"><S.SM src={Linkedin} alt='LinkedIn'/></a>
+                            <a href='https://wa.me/5521982916500' target='_blank'rel="noreferrer"><S.SM src={Whatsapp} alt='Whatsapp'/></a>
+                            <a href='https://github.com/dwmedeirosDev' target='_blank'rel="noreferrer"><S.SM src={GitHub} alt='GitHub'/></a>  
                         </S.SMBox>
                     </S.Text>
                 </S.Content>
