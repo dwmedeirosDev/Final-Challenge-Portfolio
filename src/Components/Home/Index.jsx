@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from './Style'
 import Header from '../../Services/Header/Index'
+import Footer from '../../Services/Footer/Index'
 import Linkedin from '../../Assets/Social-Media/linkedin.png'
 import Whatsapp from '../../Assets/Social-Media/whatsapp.png'
 import GitHub from '../../Assets/Social-Media/github.png'
@@ -26,6 +27,7 @@ export default function Home(){
                     <S.Photo src={Photo5} alt='Minha foto - David'/>
                 </S.Box>
             </S.All>
+            <Footer />
         </S.ContainerHome>
     )
 }

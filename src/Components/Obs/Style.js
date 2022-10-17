@@ -35,6 +35,7 @@ export const Mural = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 2.8vh;
 `
 
 export const Img = styled.img`

@@ -12,6 +12,7 @@ import EqualityComponent from '../Obs/Equality/Index'
 import GrowthComponent from '../Obs/Growth/Index'
 import JusticeComponent from '../Obs/Justice/Index'
 import Header from '../../Services/Header/Index'
+import Footer from '../../Services/Footer/Index'
 
 export default function OBS(){
     
@@ -43,6 +44,7 @@ export default function OBS(){
                 <S.Img onClick={()=>(setPagejustice(!pagejustice))} src={Justice} alt='Justiça'/>
                 {pagejustice? <JusticeComponent /> : null}              
             </S.Mural>
+            <Footer />
         </S.ContainerObs>
     )
 }
