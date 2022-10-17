@@ -85,13 +85,13 @@ export const SM = styled.img`
 `
 
 export const Photo = styled.img`
-    width: 300px;
-    border-radius: 10px;
+    width: 340px;
+    height: 430px;
+    object-fit: contain;
     margin-left: 10%;
 
     @media only screen and (min-width: 375px) and (max-width: 815px){
         margin-left: 0;
         padding-top: 10%;
-        border-radius: 10px;
     }
 `
