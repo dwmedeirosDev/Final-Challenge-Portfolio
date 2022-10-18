@@ -10,6 +10,12 @@ export const All = styled.div`
     width: 100%;
     height: 79vh;
     display: flex;
+
+    @media only screen and (min-width: 375px) and (max-width: 1010px){
+        flex-direction: column;
+        height: 160vh;
+        padding-top: 10%;
+    }
 `
 
 export const Content = styled.div`
@@ -40,12 +46,23 @@ export const P = styled.p`
     justify-content: center;
     align-items: center;
     margin-bottom: 4vh;
+
+    @media only screen and (min-width: 375px) and (max-width: 608px){
+        padding-top: 70px;
+    }
 `
 
 export const Skills = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+
+    @media only screen and (min-width: 375px) and (max-width: 638px){
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+
+    }
 `
 
 export const ContainerLanguage = styled.div`
@@ -74,6 +91,12 @@ export const Box = styled.div`
     width: 50%;
     display: flex;
     align-items: center;
+
+    @media only screen and (min-width: 375px) and (max-width: 1010px){
+        width: 100%;
+        justify-content: center;
+        padding-top: 10%
+    }
 `
 
 export const Photo = styled.img`
