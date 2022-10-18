@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import * as S from './Style'
+import Modal from 'react-modal'
 import Onu from '../../Assets/Obs/onu-logo.png'
 import Health from '../../Assets/Obs/health.png'
 import Education from '../../Assets/Obs/education.png'
@@ -22,6 +23,10 @@ export default function OBS(){
     const [pagegrowth, setPagegrowth] = useState(false)
     const [pagejustice, setPagejustice] = useState(false)
 
+    function ChangeModal(){
+        setPageeducation(!pageeducation)
+    }
+
     return(
         <S.ContainerObs>  
             <Header /> 
@@ -32,8 +37,12 @@ export default function OBS(){
                 <S.Img onClick={()=>(setPagehealth(!pagehealth))} src={Health} alt='Saúde'/>
                 {pagehealth? <HealthComponent /> : null}
 
-                <S.Img onClick ={()=>(setPageeducation(!pageeducation))} src={Education} alt='Educação'/>
-                {pageeducation? <EducationComponent /> : null}
+                <S.Img onClick={() => {ChangeModal()}} src={Education} alt='Educação'/>
+                
+                <Modal isOpen={pageeducation} onRequestClose={ChangeModal}>
+                    <EducationComponent />
+                </Modal>
+                
 
                 <S.Img onClick ={()=>(setPageequality(!pageequality))} src={Equality} alt='Igualdade'/>
                 {pageequality? <EqualityComponent /> : null}

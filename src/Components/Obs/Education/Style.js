@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerEducation = styled.div`
-    width: 100%;
+    /* width: 100%;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -10,15 +10,15 @@ export const ContainerEducation = styled.div`
     background-color: rgba(0, 0, 0, 0.8);   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 `
 
 export const Content = styled.div`
-    background-color: white;
+    /* background-color: white;
     color: black;
     width: 80%;
     height: 80%;
-    border-radius: 10px;
+    border-radius: 10px; */
 `
 
 export const Close = styled.button`
