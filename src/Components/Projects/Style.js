@@ -4,7 +4,11 @@ import Background from '../../Assets/Background/background.jpg'
 export const ContainerProjects = styled.section`
     background-image: url(${Background});
     font-family: 'Ubuntu', sans-serif;
-    height: 145.5vh;
+
+    @media only screen and (min-width: 375px) and (max-width: 1098px){
+        flex-direction: column;
+        width: 100%;
+    }
 `
 
 export const All = styled.div`
@@ -21,12 +25,22 @@ export const Project = styled.div`
     align-items: center;
     margin-bottom: 20px;
     margin-left: 40px;
+
+    @media only screen and (min-width: 375px) and (max-width: 1098px){
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
 `
 
 export const Img = styled.img`
     width: 500px;
     border-radius: 40px;
     border: solid 1px white;
+    
+    @media only screen and (min-width: 375px) and (max-width: 550px){
+        width: 90%;
+    }
 `
 
 export const Content = styled.div`
@@ -35,6 +49,13 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     margin-left: 5%;
+
+    @media only screen and (min-width: 375px) and (max-width: 1098px){
+        flex-direction: column;
+        margin-left: 0;
+        height: 30vh;
+        justify-content: space-evenly;
+    }
 `
 
 export const H2 = styled.h2`
@@ -42,6 +63,7 @@ export const H2 = styled.h2`
 `
 
 export const P = styled.p`
+    text-align: center;
     margin-left: 40px;
     border: solid 1px white;
     padding: 10px;
@@ -50,6 +72,10 @@ export const P = styled.p`
 
     &:hover{
         transform: scale(1.1);
+    }
+
+    @media only screen and (min-width: 375px) and (max-width: 1098px){
+        margin-left: 0;
     }
 `
 
