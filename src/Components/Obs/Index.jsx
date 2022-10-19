@@ -57,7 +57,6 @@ export default function OBS(){
                     onRequestClose={ChangeHealth}
                     style={{
                         overlay:{
-                            width: '50%',
                             backgroundColor: 'rgba(255, 255, 255, 0)',
                             display: 'flex',
                             justifyContent: 'center',
@@ -80,7 +79,6 @@ export default function OBS(){
                     onRequestClose={ChangeEducation}
                     style={{
                         overlay:{
-                            width: '50%',
                             backgroundColor: 'rgba(255, 255, 255, 0)',
                             display: 'flex',
                             justifyContent: 'center',
@@ -104,7 +102,6 @@ export default function OBS(){
                     onRequestClose={ChangeEquality}
                     style={{
                         overlay:{
-                            width: '50%',
                             backgroundColor: 'rgba(255, 255, 255, 0)',
                             display: 'flex',
                             justifyContent: 'center',
@@ -127,7 +124,6 @@ export default function OBS(){
                     onRequestClose={ChangeGrowth}
                     style={{
                         overlay:{
-                            width: '50%',
                             backgroundColor: 'rgba(255, 255, 255, 0)',
                             display: 'flex',
                             justifyContent: 'center',

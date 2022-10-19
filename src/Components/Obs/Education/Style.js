@@ -16,7 +16,6 @@ export const Img = styled.img`
     @media only screen and (min-width: 375px) and (max-width: 620px){
         width: 100%;
     }
-
 `
 
 export const H1 = styled.h1`
