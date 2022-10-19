@@ -1,14 +1,19 @@
 import React from 'react'
 import * as S from './Style'
-import {ChangeModal} from '../Index'
 
 export default function Education(){
     return(
-        <S.ContainerEducation>  
+        <section>  
             <S.Content>
-                <h1>TESTE</h1>
-                <S.Close />
+                <S.Img src={Upa} alt="UPA"/>
+                <S.H1>Saúde e Bem-Estar</S.H1>
+                <S.Text>
+                    <S.P>1.1 - Melhoria na gestão hospitalar</S.P>
+                    <S.P>1.2 - Criação de mais leitos para os pacientes</S.P>
+                    <S.P>1.3 - Melhor investigação nos sintomas do paciente</S.P>
+                    <S.P>1.4 - Maior agilidade na passagem de plantão</S.P>
+                </S.Text>
             </S.Content>
-        </S.ContainerEducation>
+        </section>
     )
 }

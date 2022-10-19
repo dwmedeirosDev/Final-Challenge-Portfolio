@@ -71,6 +71,7 @@ export const ContainerLanguage = styled.div`
     align-items: center;
     margin: 5px;
     transition: all 0.1s;
+    cursor: pointer;
 
     &:hover{
         transform: scale(1.1);

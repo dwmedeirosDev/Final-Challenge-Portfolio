@@ -12,7 +12,7 @@ export default function Header(){
                 <S.SLink to='/'>Home</S.SLink>
                 <S.SLink to='/sobremim'>Quem Sou Eu</S.SLink>
                 <S.SLink to='/projetos'>Projetos</S.SLink>
-                <S.SLink to='/obs'>Obs</S.SLink>
+                <S.SLink to='/obs'>ODS</S.SLink>
             </S.Menu>
         </S.ContainerHeader>
     )

@@ -51,33 +51,121 @@ export default function OBS(){
             <S.H1>Os Objetivos de Desenvolvimento Sustentável no Complexo da Maré</S.H1>
             <S.P>Os Objetivos de Desenvolvimento Sustentável são um apelo à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, no Complexo da Maré, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Complexo da Maré - RJ.</S.P>
             <S.Mural>
-
                 <S.Img onClick={()=>{ChangeHealth()}} src={Health} alt='Saúde'/>
-                <Modal isOpen={pagehealth} onRequestClose={ChangeHealth}>
+                <Modal 
+                    isOpen={pagehealth} 
+                    onRequestClose={ChangeHealth}
+                    style={{
+                        overlay:{
+                            width: '50%',
+                            backgroundColor: 'rgba(255, 255, 255, 0)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            margin: '0 auto'
+                        },
+                        content:{
+                            borderRadius: '20px',
+                            display: 'flex',
+                            justifyContent: 'Center'
+
+                        }
+                    }}
+                >
                     <HealthComponent />
                 </Modal>
-
                 <S.Img onClick={() => {ChangeEducation()}} src={Education} alt='Educação'/>
-                <Modal isOpen={pageeducation} onRequestClose={ChangeEducation}>
+                <Modal 
+                    isOpen={pageeducation} 
+                    onRequestClose={ChangeEducation}
+                    style={{
+                        overlay:{
+                            width: '50%',
+                            backgroundColor: 'rgba(255, 255, 255, 0)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            margin: '0 auto'
+                        },
+                        content:{
+                            borderRadius: '20px',
+                            display: 'flex',
+                            justifyContent: 'Center'
+
+                        }
+                    }}
+                >
                     <EducationComponent />
                 </Modal>
-                
-
                 <S.Img onClick ={()=>{ChangeEquality()}} src={Equality} alt='Igualdade'/>
-                <Modal isOpen={pageequality} onRequestClose={ChangeEquality}>
+                <Modal 
+                    isOpen={pageequality} 
+                    onRequestClose={ChangeEquality}
+                    style={{
+                        overlay:{
+                            width: '50%',
+                            backgroundColor: 'rgba(255, 255, 255, 0)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            margin: '0 auto'
+                        },
+                        content:{
+                            borderRadius: '20px',
+                            display: 'flex',
+                            justifyContent: 'Center'
+
+                        }
+                    }}
+                >
                     <EqualityComponent />
                 </Modal>
-
                 <S.Img onClick ={()=>{ChangeGrowth()}} src={Growth} alt='Crescimento Econômico'/>
-                <Modal isOpen={pagegrowth} onRequestClose={ChangeGrowth}>
+                <Modal 
+                    isOpen={pagegrowth} 
+                    onRequestClose={ChangeGrowth}
+                    style={{
+                        overlay:{
+                            width: '50%',
+                            backgroundColor: 'rgba(255, 255, 255, 0)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            margin: '0 auto'
+                        },
+                        content:{
+                            borderRadius: '20px',
+                            display: 'flex',
+                            justifyContent: 'Center'
+
+                        }
+                    }}
+                >
                     <GrowthComponent />
                 </Modal>
-
                 <S.Img onClick ={()=>{ChangeJustice()}} src={Justice} alt='Justiça'/>
-                <Modal isOpen={pagejustice} onRequestClose={ChangeJustice}>
+                <Modal 
+                    isOpen={pagejustice} 
+                    onRequestClose={ChangeJustice}
+                    style={{
+                        overlay:{
+                            width: '50%',
+                            backgroundColor: 'rgba(255, 255, 255, 0)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            margin: '0 auto'
+                        },
+                        content:{
+                            borderRadius: '20px',
+                            display: 'flex',
+                            justifyContent: 'Center'
+
+                        }
+                    }}
+                >
                     <JusticeComponent />
                 </Modal>
-
             </S.Mural>
             <Footer />
         </S.ContainerObs>
