@@ -90,7 +90,8 @@ export default function OBS(){
                         content:{
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'center'
+                            justifyContent: 'center',
+                            alignItems: 'center'
 
                         }
                     }}

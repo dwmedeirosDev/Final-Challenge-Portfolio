@@ -1,17 +1,17 @@
 import React from 'react'
 import * as S from './Style'
+import Ciep from '../../../Assets/Obs/ciep.jpg'
 
 export default function Education(){
     return(
         <section>  
             <S.Content>
-                <S.Img />
-                <S.H1>Saúde e Bem-Estar</S.H1>
+                <S.Img src={Ciep} alt='Cieps'/>
+                <S.H1>Educação de Qualidade</S.H1>
                 <S.Text>
-                    <S.P>1.1 - Melhoria na gestão hospitalar</S.P>
-                    <S.P>1.2 - Criação de mais leitos para os pacientes</S.P>
-                    <S.P>1.3 - Melhor investigação nos sintomas do paciente</S.P>
-                    <S.P>1.4 - Maior agilidade na passagem de plantão</S.P>
+                    <S.P>2.1 - Projetos Sociocultural nas Escolas e Cieps</S.P>
+                    <S.P>2.2 - Incentivo a prática de esportes</S.P>
+                    <S.P>2.3 - Melhorar a gestão e controle de presença e participação dos alunos</S.P>
                 </S.Text>
             </S.Content>
         </section>
