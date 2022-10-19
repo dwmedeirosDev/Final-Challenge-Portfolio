@@ -67,7 +67,7 @@ export default function OBS(){
                         content:{
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'Center'
+                            justifyContent: 'center'
 
                         }
                     }}
@@ -90,7 +90,7 @@ export default function OBS(){
                         content:{
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'Center'
+                            justifyContent: 'center'
 
                         }
                     }}
@@ -113,7 +113,7 @@ export default function OBS(){
                         content:{
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'Center'
+                            justifyContent: 'center'
 
                         }
                     }}
@@ -136,7 +136,7 @@ export default function OBS(){
                         content:{
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'Center'
+                            justifyContent: 'center'
 
                         }
                     }}

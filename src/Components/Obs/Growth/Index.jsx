@@ -1,4 +1,5 @@
 import React from 'react'
+import * as S from './Style'
 
 export default function Growth(){
     return(
@@ -12,4 +13,5 @@ export default function Growth(){
                 <S.P>1.4 - Maior agilidade na passagem de plantão</S.P>
             </S.Text>
         </S.Content>
+    )
 }

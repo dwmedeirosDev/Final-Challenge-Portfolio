@@ -5,7 +5,7 @@ export default function Education(){
     return(
         <section>  
             <S.Content>
-                <S.Img src={Upa} alt="UPA"/>
+                <S.Img />
                 <S.H1>Saúde e Bem-Estar</S.H1>
                 <S.Text>
                     <S.P>1.1 - Melhoria na gestão hospitalar</S.P>
