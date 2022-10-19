@@ -15,23 +15,23 @@ export default function Aboutme(){
             <Header />
             <S.All>
                 <S.Content>
-                    <S.H2>Sobre mim</S.H2>
+                    <S.H2>Sobre Mim</S.H2>
                     <S.P>Olá, me chamo David, tenho 28 anos, sou Desenvolvedor Front End Jr, formando pelo curso do Vai na Web em Programação Front End e Análise e Desenvolvimento de Sistema pela Faculdade Descomplica em busca de uma oportunidade na área de Programação.</S.P>
                     <S.Skills>
                         <S.ContainerLanguage>
-                            <S.LanguageImg src={Html} alt='HTML'/>
+                            <a href='https://developer.mozilla.org/pt-BR/docs/Web/HTML' target='_blank' rel="noreferrer"><S.LanguageImg src={Html} alt='HTML'/></a>
                             <S.H6>HTML</S.H6>
                         </S.ContainerLanguage>
                         <S.ContainerLanguage>
-                            <S.LanguageImg src={Css} alt='CSS'/>
+                            <a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS' target='_blank' rel="noreferrer"><S.LanguageImg src={Css} alt='CSS'/></a>
                             <S.H6>CSS</S.H6>
                         </S.ContainerLanguage>
                         <S.ContainerLanguage>
-                            <S.LanguageImg src={JavaScript} alt='JavaScript'/>
+                            <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript' target='_blank' rel="noreferrer"><S.LanguageImg src={JavaScript} alt='JavaScript'/></a>
                             <S.H6>JavaScript</S.H6>
                         </S.ContainerLanguage>
                         <S.ContainerLanguage>
-                            <S.LanguageImg src={ReactLanguage} alt='CSReactS'/>
+                            <a href='https://reactnative.dev/docs/getting-started' target='_blank' rel="noreferrer"><S.LanguageImg src={ReactLanguage} alt='CSReactS'/></a>
                             <S.H6>React</S.H6>
                         </S.ContainerLanguage>
                     </S.Skills>
