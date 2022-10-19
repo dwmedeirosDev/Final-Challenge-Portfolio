@@ -8,6 +8,19 @@ export const ContainerObs = styled.section`
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     background-image: url(${Background});
+    height: 80vh;
+
+    @media only screen and (min-width: 375px) and (max-width: 1020px){
+        height: 120vh;
+    }
+
+    @media only screen and (min-width: 375px) and (max-width: 600px){
+        height: 170vh;
+    }
+
+    @media only screen and (min-width: 375px) and (max-width: 400px){
+        height: 220vh;
+    }
 `
 
 export const Logo = styled.img`
@@ -35,7 +48,6 @@ export const Mural = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 2.8vh;
 `
 
 export const Img = styled.img`
