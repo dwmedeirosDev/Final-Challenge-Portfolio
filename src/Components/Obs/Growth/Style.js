@@ -20,10 +20,7 @@ export const Img = styled.img`
 
 export const H1 = styled.h1`
     margin: 20px;
-`
-
-export const Text = styled.div`
-
+    color: white;
 `
 
 export const P = styled.p`

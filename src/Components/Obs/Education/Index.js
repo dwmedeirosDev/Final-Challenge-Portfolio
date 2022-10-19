@@ -8,11 +8,11 @@ export default function Education(){
             <S.Content>
                 <S.Img src={Ciep} alt='Cieps'/>
                 <S.H1>Educação de Qualidade</S.H1>
-                <S.Text>
+                <div>
                     <S.P>2.1 - Projetos Sociocultural nas Escolas e Cieps</S.P>
                     <S.P>2.2 - Incentivo a prática de esportes</S.P>
                     <S.P>2.3 - Melhorar a gestão e controle de presença e participação dos alunos</S.P>
-                </S.Text>
+                </div>
             </S.Content>
         </section>
     )

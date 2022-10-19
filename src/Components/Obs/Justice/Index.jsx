@@ -1,17 +1,17 @@
 import React from 'react'
 import * as S from './Style'
+import JusticeImg from '../../../Assets/Obs/justice1.jfif'
 
 export default function Justice(){
     return(
         <S.Content>
-            <S.Img/>
-            <S.H1>Saúde e Bem-Estar</S.H1>
-            <S.Text>
-                <S.P>1.1 - Melhoria na gestão hospitalar</S.P>
-                <S.P>1.2 - Criação de mais leitos para os pacientes</S.P>
-                <S.P>1.3 - Melhor investigação nos sintomas do paciente</S.P>
-                <S.P>1.4 - Maior agilidade na passagem de plantão</S.P>
-            </S.Text>
+            <S.Img src={JusticeImg} alt='Justiça' />
+            <S.H1>Paz, Justiça e Instituições eficazes</S.H1>
+            <div>
+                <S.P>5.1 - Criar e financiar novas ONG's e as que já existem</S.P>
+                <S.P>5.2 - Debater questões de todos os tipos dentro da Comunidade</S.P>
+                <S.P>5.3 - Seguir e colocar em vigor as leis e política dentro da Comunidade</S.P>
+            </div>
         </S.Content>   
     )
 }
