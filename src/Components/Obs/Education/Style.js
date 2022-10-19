@@ -29,4 +29,5 @@ export const Text = styled.div`
 export const P = styled.p`
     margin-bottom: 0.3%;
     font-weight: lighter;
+    color: white;
 `

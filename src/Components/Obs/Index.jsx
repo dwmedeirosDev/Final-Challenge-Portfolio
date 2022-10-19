@@ -64,10 +64,11 @@ export default function OBS(){
                             margin: '0 auto'
                         },
                         content:{
+                            backgroundColor: 'rgba(0, 0, 0, 0.85)',
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'center'
-
+                            justifyContent: 'center',
+                            border: 'none'
                         }
                     }}
                 >
@@ -83,14 +84,15 @@ export default function OBS(){
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
-                            margin: '0 auto'
+                            margin: '0 auto',
                         },
                         content:{
+                            backgroundColor: 'rgba(0, 0, 0, 0.85)',
                             borderRadius: '20px',
                             display: 'flex',
                             justifyContent: 'center',
-                            alignItems: 'center'
-
+                            alignItems: 'center',
+                            border: 'none'
                         }
                     }}
                 >
@@ -109,10 +111,11 @@ export default function OBS(){
                             margin: '0 auto'
                         },
                         content:{
+                            backgroundColor: 'rgba(0, 0, 0, 0.85)',
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'center'
-
+                            justifyContent: 'center',
+                            border: 'none'
                         }
                     }}
                 >
@@ -131,10 +134,11 @@ export default function OBS(){
                             margin: '0 auto'
                         },
                         content:{
+                            backgroundColor: 'rgba(0, 0, 0, 0.85)',
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'center'
-
+                            justifyContent: 'center',
+                            border: 'none'
                         }
                     }}
                 >
@@ -154,10 +158,11 @@ export default function OBS(){
                             margin: '0 auto'
                         },
                         content:{
+                            backgroundColor: 'rgba(0, 0, 0, 0.85)',
                             borderRadius: '20px',
                             display: 'flex',
-                            justifyContent: 'Center'
-
+                            justifyContent: 'center',
+                            border: 'none'
                         }
                     }}
                 >
