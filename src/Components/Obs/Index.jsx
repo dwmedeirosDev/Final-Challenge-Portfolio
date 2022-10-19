@@ -23,8 +23,25 @@ export default function OBS(){
     const [pagegrowth, setPagegrowth] = useState(false)
     const [pagejustice, setPagejustice] = useState(false)
 
-    function ChangeModal(){
+
+    function ChangeHealth(){
+        setPagehealth(!pagehealth)
+    }
+
+    function ChangeEducation(){
         setPageeducation(!pageeducation)
+    }
+
+    function ChangeEquality(){
+        setPageequality(!pageequality)
+    }
+
+    function ChangeGrowth(){
+        setPagegrowth(!pagegrowth)
+    }
+
+    function ChangeJustice(){
+        setPagejustice(!pagejustice)
     }
 
     return(
@@ -34,24 +51,33 @@ export default function OBS(){
             <S.H1>Os Objetivos de Desenvolvimento Sustentável no Complexo da Maré</S.H1>
             <S.P>Os Objetivos de Desenvolvimento Sustentável são um apelo à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, no Complexo da Maré, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Complexo da Maré - RJ.</S.P>
             <S.Mural>
-                <S.Img onClick={()=>(setPagehealth(!pagehealth))} src={Health} alt='Saúde'/>
-                {pagehealth? <HealthComponent /> : null}
 
-                <S.Img onClick={() => {ChangeModal()}} src={Education} alt='Educação'/>
-                
-                <Modal isOpen={pageeducation} onRequestClose={ChangeModal}>
+                <S.Img onClick={()=>{ChangeHealth()}} src={Health} alt='Saúde'/>
+                <Modal isOpen={pagehealth} onRequestClose={ChangeHealth}>
+                    <HealthComponent />
+                </Modal>
+
+                <S.Img onClick={() => {ChangeEducation()}} src={Education} alt='Educação'/>
+                <Modal isOpen={pageeducation} onRequestClose={ChangeEducation}>
                     <EducationComponent />
                 </Modal>
                 
 
-                <S.Img onClick ={()=>(setPageequality(!pageequality))} src={Equality} alt='Igualdade'/>
-                {pageequality? <EqualityComponent /> : null}
+                <S.Img onClick ={()=>{ChangeEquality()}} src={Equality} alt='Igualdade'/>
+                <Modal isOpen={pageequality} onRequestClose={ChangeEquality}>
+                    <EqualityComponent />
+                </Modal>
 
-                <S.Img onClick={()=>(setPagegrowth(!pagegrowth))} src={Growth} alt='Crescimento Econômico'/>
-                {pagegrowth? <GrowthComponent /> : null}
+                <S.Img onClick ={()=>{ChangeGrowth()}} src={Growth} alt='Crescimento Econômico'/>
+                <Modal isOpen={pagegrowth} onRequestClose={ChangeGrowth}>
+                    <GrowthComponent />
+                </Modal>
 
-                <S.Img onClick={()=>(setPagejustice(!pagejustice))} src={Justice} alt='Justiça'/>
-                {pagejustice? <JusticeComponent /> : null}              
+                <S.Img onClick ={()=>{ChangeJustice()}} src={Justice} alt='Justiça'/>
+                <Modal isOpen={pagejustice} onRequestClose={ChangeJustice}>
+                    <JusticeComponent />
+                </Modal>
+
             </S.Mural>
             <Footer />
         </S.ContainerObs>
