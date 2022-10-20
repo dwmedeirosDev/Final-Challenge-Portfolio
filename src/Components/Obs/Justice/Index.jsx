@@ -2,9 +2,10 @@ import React from 'react'
 import * as S from './Style'
 import JusticeImg from '../../../Assets/Obs/justice1.jfif'
 
-export default function Justice(){
+export default function Justice({Close}){
     return(
         <S.Content>
+            <S.Close onClick={Close}/>
             <S.Img src={JusticeImg} alt='Justiça' />
             <S.H1>Paz, Justiça e Instituições eficazes</S.H1>
             <div>

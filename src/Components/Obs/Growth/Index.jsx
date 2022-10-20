@@ -2,9 +2,10 @@ import React from 'react'
 import * as S from './Style'
 import GrowthImg from '../../../Assets/Obs/growth1.jfif'
 
-export default function Growth(){
+export default function Growth({Close}){
     return(
         <S.Content>
+            <S.Close onClick={Close}/>
             <S.Img src={GrowthImg} alt='Crescimento Ecônimico'/>
             <S.H1>Trabalho decente e crescimento econômico</S.H1>
             <div>

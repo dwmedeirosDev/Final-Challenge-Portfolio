@@ -2,9 +2,10 @@ import React from 'react'
 import * as S from './Style'
 import EqualityImg from '../../../Assets/Obs/equality1.png'
 
-export default function Equality(){
+export default function Equality({Close}){
     return(
         <S.Content>
+            <S.Close onClick={Close}/>
             <S.Img src={EqualityImg} alt='Igualdade'/>
             <S.H1>Igualdade de Gênero</S.H1>
             <div>

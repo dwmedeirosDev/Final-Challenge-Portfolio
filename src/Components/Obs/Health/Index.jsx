@@ -2,9 +2,10 @@ import React from 'react'
 import * as S from './Style'
 import Upa from '../../../Assets/Obs/upa.png'
 
-export default function Health(){
+export default function Health({Close}){
     return(
             <S.Content>
+                <S.Close onClick={Close}/>
                 <S.Img src={Upa} alt="UPA"/>
                 <S.H1>Saúde e Bem-Estar</S.H1>
                 <div>

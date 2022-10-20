@@ -2,10 +2,11 @@ import React from 'react'
 import * as S from './Style'
 import Ciep from '../../../Assets/Obs/ciep.jpg'
 
-export default function Education(){
+export default function Education({Close}){
     return(
         <section>  
             <S.Content>
+                <S.Close onClick={Close}/>
                 <S.Img src={Ciep} alt='Cieps'/>
                 <S.H1>Educação de Qualidade</S.H1>
                 <div>

@@ -73,7 +73,7 @@ export default function OBS(){
                             }
                         }}
                     >
-                        <HealthComponent />
+                        <HealthComponent Close={ChangeHealth} />
                     </Modal>
                     <S.Img onClick={() => {ChangeEducation()}} src={Education} alt='Educação'/>
                     <Modal 
@@ -97,7 +97,7 @@ export default function OBS(){
                             }
                         }}
                     >
-                        <EducationComponent />
+                        <EducationComponent Close={ChangeEducation} />
                     </Modal>
                     <S.Img onClick ={()=>{ChangeEquality()}} src={Equality} alt='Igualdade'/>
                     <Modal 
@@ -120,7 +120,7 @@ export default function OBS(){
                             }
                         }}
                     >
-                        <EqualityComponent />
+                        <EqualityComponent Close={ChangeEquality} />
                     </Modal>
                     <S.Img onClick ={()=>{ChangeGrowth()}} src={Growth} alt='Crescimento Econômico'/>
                     <Modal 
@@ -143,7 +143,7 @@ export default function OBS(){
                             }
                         }}
                     >
-                        <GrowthComponent />
+                        <GrowthComponent Close={ChangeGrowth}/>
                     </Modal>
                     <S.Img onClick ={()=>{ChangeJustice()}} src={Justice} alt='Justiça'/>
                     <Modal 
@@ -167,7 +167,7 @@ export default function OBS(){
                             }
                         }}
                     >
-                        <JusticeComponent />
+                        <JusticeComponent Close={ChangeJustice}/>
                     </Modal>
                 </S.Mural>
             </S.ContainerObs> 
