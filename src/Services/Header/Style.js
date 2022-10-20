@@ -1,13 +1,11 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import Background from '../../Assets/Background/background.jpg'
 
 export const ContainerHeader = styled.section`
     width: 100%;
     height: 15vh;
     display: flex;
     justify-content: space-between;
-    background-image: url(${Background});
 
     @media only screen and (min-width: 375px) and (max-width: 815px){
         flex-direction: column;

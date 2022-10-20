@@ -2,25 +2,8 @@ import styled from 'styled-components'
 import Background from '../../Assets/Background/background.jpg'
 
 export const ContainerObs = styled.section` 
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     background-image: url(${Background});
-    height: 80vh;
-
-    @media only screen and (min-width: 375px) and (max-width: 1020px){
-        height: 120vh;
-    }
-
-    @media only screen and (min-width: 375px) and (max-width: 600px){
-        height: 170vh;
-    }
-
-    @media only screen and (min-width: 375px) and (max-width: 400px){
-        height: 220vh;
-    }
 `
 
 export const Logo = styled.img`
@@ -50,6 +33,13 @@ export const Mural = styled.div`
     flex-wrap: wrap;
 `
 
+export const All = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+`
+
 export const Img = styled.img`
     width: 200px;
     padding: 2vh;
@@ -59,4 +49,8 @@ export const Img = styled.img`
     &:hover{
         transform: scale(1.1);
     }
+`
+
+export const ContainerFooter = styled.div`
+    margin-top: 2.8vh;
 `

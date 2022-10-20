@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import Background from '../../Assets/Background/background.jpg'
 
 export const ContainerFooter = styled.div`
     height: 6vh;
-    background-image: url(${Background});
+    width: 100%;
     font-family: 'Ubuntu', sans-serif;
 `
 export const P = styled.p`
